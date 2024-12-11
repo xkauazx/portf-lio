@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@media  screen and (min-width: 900px) and (max-width: 1150px) {
+    
+}
+@media  screen and (max-width: 800px) {
+    #perfil > p{
+      display: none;
+     
+    }  
+}
+@media  screen and (max-width: 660px) {
+    #perfil > #imgperfil{
+      display: none;
+     
+    }  
+}
+@media  screen and (max-width: 600px) {
+    #home > li > a{
+     font-size: 18px;
+     
+    }  
+}
