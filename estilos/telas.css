@@ -14,9 +14,17 @@
      
     }  
 }
-@media  screen and (max-width: 600px) {
-    #home > li > a{
-     font-size: 18px;
+@media  screen and (max-width: 570px) {
+  #home > li {
+    padding: 10px 10px 10px px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }  
+  #home > li > a{
+     font-size: 25px;
      
     }  
+ 
 }
