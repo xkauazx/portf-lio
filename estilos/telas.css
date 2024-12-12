@@ -1,8 +1,54 @@
 @charset "UTF-8";
-@media  screen and (min-width: 900px) and (max-width: 1150px) {
-    
+@media  screen and (min-width: 480px) and (max-width: 1150px) {
+ #divhabilidades{
+  grid-template-columns: 2;
+ 
+ }
+ #html{
+  grid-column: 1;
+  grid-row: 1;
 }
-@media  screen and (max-width: 800px) {
+#css{
+  grid-column: 2;
+  grid-row: 1;
+}
+#js{
+  grid-column: 1;
+  grid-row: 2;
+}
+#react{
+  grid-column: 2;
+  grid-row: 2;
+}
+.skills{
+  margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 1000px) {
+  #morcego{
+    display: none;
+   } 
+  
+  
+}
+@media screen and (max-width: 970px) {
+  #morcego{
+    display: none;
+   } 
+  #projetos{
+    grid-template-columns: 1;
+  }
+  
+  .card{
+    
+  }
+  .card2{
+    
+  }
+ 
+  
+}
+@media  screen and (max-width: 830px) {
     #perfil > p{
       display: none;
      
@@ -15,20 +61,40 @@
     }  
 }
 @media  screen and (max-width: 580px) {
-  #header{
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+  #home > li > a >img{
+    display: none;
   }
   #home > li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    
-   }  
+    padding: 20;
+     
+    }  
+    #divhabilidades{
+      grid-template-columns: 1;
+     
+     }
+     #html{
+      grid-column: 1;
+      grid-row: 1;
+    }
+    #css{
+      grid-column: 1;
+      grid-row: 2;
+    }
+    #js{
+      grid-column: 1;
+      grid-row: 3;
+    }
+    #react{
+      grid-column: 1;
+      grid-row: 4;
+    }
+    .skills{
+      margin-bottom: 20px;
+    }
+}
+@media  screen and (max-width: 480px) {
   #home > li > a{
-     font-size: 13px;
+    font-size: 13px;
      
     }  
  
