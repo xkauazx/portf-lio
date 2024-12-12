@@ -14,16 +14,21 @@
      
     }  
 }
-@media  screen and (max-width: 570px) {
+@media  screen and (max-width: 580px) {
+  #header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
   #home > li {
-    padding: 10px 10px 10px px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    
+    
    }  
   #home > li > a{
-     font-size: 25px;
+     font-size: 14px;
      
     }  
  
