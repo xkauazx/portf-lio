@@ -105,12 +105,15 @@
     padding: 10px;
   }
   #home > li > a >img{
-    display: none;
+    
   }
   #home > li {
     padding: 0;
      
-    }  
+    } 
+  #mainpj{
+    padding: 0;
+  }   
     #divhabilidades{
       grid-template-columns: 1;
      
