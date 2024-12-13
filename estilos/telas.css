@@ -127,3 +127,13 @@
       margin-bottom: 20px;
     }
 }
+@media  screen and (max-width: 500px) {
+  body{
+    width: 90vw;
+    height: auto;
+  }
+ li{
+  background-color: antiquewhite;
+  
+ }
+}
