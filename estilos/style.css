@@ -136,7 +136,7 @@ header{
     align-items: center;
     padding: 50px;  
 }
-article{
+#articleindex{
     margin: 100px 0px 0px 0px;
 }
 #kaua{
@@ -293,7 +293,6 @@ article{
     text-shadow: 1px 1px 3px rgb(0, 0, 0);   
 }
 #mainhb{
-    display: grid;
     justify-content: flex-start;
     grid-template-columns: 2;
     display: grid;
@@ -340,7 +339,7 @@ article{
 }
 #projetos{
     display: grid;
-    grid-template-columns: 2;
+   
     gap: 100px;
     padding: 50px;
 
@@ -434,19 +433,21 @@ h3{
 #mainctt{
     display: grid;
     grid-template-columns: 3;
-    padding: 50px;
-    
+   
 }
+
 #ctt{
     display: grid;
-    justify-content: center;
-    grid-column: 1;
+    justify-content: center; 
 }
 #ctt > h1{
     color: white;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
-    text-shadow: 1px 1px 3px #892be294;
+}  
+#articlectt{
+    display: grid;
+    grid-column: 1;
 }
 .msg{
     display: grid;
@@ -477,6 +478,11 @@ h3{
     grid-column: 2;
     display: grid;
     grid-template-rows: 57px auto;
+    text-align: center;
+   
+}
+#articlectt2{
+   
 }
 #imgfile{
     transform: translateY(15px);
@@ -520,6 +526,7 @@ input, textarea{
     resize: none; 
     overflow-wrap: break-word;
     overflow-y: auto;
+    width: 100%;
 }
 textarea {
     height: 190px; 
@@ -527,6 +534,9 @@ textarea {
 }
 #mensagem{
     height: 190px;
+}
+#buttonmsg{
+    width: 100%;
 }
 #buttonmsg:hover{
    color: white ;
