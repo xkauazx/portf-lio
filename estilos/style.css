@@ -5,6 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+.animate__animated {
+    animation-duration: 1s !important;
+    animation-fill-mode: both !important;
+}
+
 body{
     position: relative;
     margin: 0;
@@ -481,9 +486,7 @@ h3{
     text-align: center;
    
 }
-#articlectt2{
-   
-}
+
 #imgfile{
     transform: translateY(15px);
 }
